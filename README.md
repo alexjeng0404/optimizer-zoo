@@ -94,13 +94,13 @@ Two baseline experiments are included:
 | `mnist_mlp.py` | 2-layer MLP | MNIST | Nonlinear network comparison |
 
 Experiment Metrics
-*Training Loss: Convergence behavior over epochs
+·Training Loss: Convergence behavior over epochs
 
-*Test Accuracy: Final performance on unseen data
+·Test Accuracy: Final performance on unseen data
 
-*Training Time: Computational efficiency
+·Training Time: Computational efficiency
 
-*Convergence Speed: Iterations to reach target accuracy
+·Convergence Speed: Iterations to reach target accuracy
 
 ---
 
@@ -109,7 +109,7 @@ Experiment Metrics
 ### 1. Setup Environment (Optional but Recommended)
 ```bash
 # Install dependencies
-pip install torch numpy matplotlib tqdm
+pip install -r requirements.txt
 ```
 
 ### 2. Run Experiments
@@ -145,29 +145,18 @@ optimizer = Adam(model.parameters(), lr=1e-3)
 📈 Results
 Results are automatically saved to:
 
-*results/logs/ - JSON files with detailed metrics
+·results/logs/ - JSON files with detailed metrics
 
-*results/loss_curves/ - PNG plots of training curves
-
-Sample Output Files:
-
-*toy_function_results.json
-
-*logreg_results.json
-
-*mlp_results.json
-
-*experiment_summary.json
+·results/loss_curves/ - PNG plots of training curves
 
 Visualization Includes:
 
-*Training loss vs. epochs
+·Training loss vs. epochs
 
-*Test accuracy vs. epochs
+·Test accuracy vs. epochs
 
-*Optimizer comparison plots
+·Optimizer comparison plots
 
-*Performance summary tables
 
 
 ---
@@ -208,8 +197,8 @@ This project is licensed under the MIT License. Feel free to use, modify, and di
 
 ## ✨ Author
 
-*Developed by **[Po Hung, Cheng]**
-* GitHub: `[https://github.com/alexjeng0404/optimizer-zoo/blob/main/README.md]`
+·Developed by **[Po Hung, Cheng]**
+·GitHub: `[https://github.com/alexjeng0404/optimizer-zoo/blob/main/README.md]`
 A comprehensive study and reimplementation of optimization algorithms for deep learning.
 
 ---
