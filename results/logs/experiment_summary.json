@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-11-09T22:41:58.258547",
+  "timestamp": "2025-11-12T22:40:34.023121",
   "experiments": {
     "toy_function": {
       "SGD": {
@@ -72,83 +72,83 @@
     "mnist_logreg": {
       "SGD": {
         "final_accuracy": 92.18,
-        "training_time": 87.13747811317444,
+        "training_time": 68.3044261932373,
         "best_accuracy": 92.22,
-        "final_loss": 0.2752576201439116
+        "final_loss": 0.27525761856375286
       },
       "Momentum": {
         "final_accuracy": 92.02,
-        "training_time": 99.99480748176575,
+        "training_time": 85.04958033561707,
         "best_accuracy": 92.24,
-        "final_loss": 0.27499330706753156
+        "final_loss": 0.2749933023888494
       },
       "Adam": {
         "final_accuracy": 92.52,
-        "training_time": 122.24976372718811,
+        "training_time": 86.88221454620361,
         "best_accuracy": 92.52,
-        "final_loss": 0.2567493778287093
+        "final_loss": 0.25674937479639365
       },
       "AdaBelief": {
         "final_accuracy": 92.41,
-        "training_time": 124.40907955169678,
+        "training_time": 88.84202146530151,
         "best_accuracy": 92.41,
-        "final_loss": 0.25738142420189075
+        "final_loss": 0.25738141528149777
       },
       "RMSProp": {
         "final_accuracy": 92.21,
-        "training_time": 107.97446322441101,
+        "training_time": 86.12288308143616,
         "best_accuracy": 92.65,
-        "final_loss": 0.26245455820801983
+        "final_loss": 0.2624545498702551
       },
       "AdaGrad": {
         "final_accuracy": 92.09,
-        "training_time": 112.98518300056458,
+        "training_time": 89.80512261390686,
         "best_accuracy": 92.38,
-        "final_loss": 0.2507145583400088
+        "final_loss": 0.2507145553165208
       }
     },
     "mnist_mlp": {
       "SGD": {
-        "final_accuracy": 94.85,
-        "training_time": 66.81924438476562,
-        "best_accuracy": 94.85,
-        "final_loss": 0.231975700542931
+        "final_accuracy": 94.82,
+        "training_time": 51.55669689178467,
+        "best_accuracy": 94.82,
+        "final_loss": 0.23262631678644796
       },
       "Momentum": {
-        "final_accuracy": 94.72,
-        "training_time": 69.63166570663452,
-        "best_accuracy": 94.72,
-        "final_loss": 0.23093747082762245
+        "final_accuracy": 94.78,
+        "training_time": 56.929707765579224,
+        "best_accuracy": 94.78,
+        "final_loss": 0.22642672537291925
       },
       "Adam": {
-        "final_accuracy": 97.62,
-        "training_time": 71.47894382476807,
-        "best_accuracy": 97.62,
-        "final_loss": 0.0750174915731964
+        "final_accuracy": 97.75,
+        "training_time": 64.47664475440979,
+        "best_accuracy": 97.75,
+        "final_loss": 0.07399827345264458
       },
       "AdaBelief": {
-        "final_accuracy": 97.71,
-        "training_time": 67.93294477462769,
-        "best_accuracy": 97.71,
-        "final_loss": 0.07402475104171792
+        "final_accuracy": 97.28,
+        "training_time": 72.37333583831787,
+        "best_accuracy": 97.52,
+        "final_loss": 0.07499081506951098
       },
       "RMSProp": {
-        "final_accuracy": 97.69,
-        "training_time": 67.96123123168945,
-        "best_accuracy": 97.69,
-        "final_loss": 0.09097774315683912
+        "final_accuracy": 97.74,
+        "training_time": 61.87837362289429,
+        "best_accuracy": 97.74,
+        "final_loss": 0.08875560097558306
       },
       "AdaGrad": {
-        "final_accuracy": 95.36,
-        "training_time": 69.24907660484314,
-        "best_accuracy": 95.37,
-        "final_loss": 0.19648050132838754
+        "final_accuracy": 95.6,
+        "training_time": 59.85323095321655,
+        "best_accuracy": 95.6,
+        "final_loss": 0.19634798571679266
       },
       "AdamW": {
-        "final_accuracy": 97.89,
-        "training_time": 75.41798186302185,
-        "best_accuracy": 97.89,
-        "final_loss": 0.07499502985478904
+        "final_accuracy": 97.85,
+        "training_time": 71.16108441352844,
+        "best_accuracy": 97.85,
+        "final_loss": 0.07347843469279461
       }
     }
   }
