@@ -17,8 +17,6 @@ A **lightweight, research-oriented project** that **reimplements popular PyTorch
 
 ## 📂 Project Structure
 
-## 📂 Project Structure
-
 ```text
 optimizer-zoo/
 ├── data/                  # MNIST dataset storage (ignored by git)
