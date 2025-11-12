@@ -17,18 +17,25 @@ A **lightweight, research-oriented project** that **reimplements popular PyTorch
 
 ## 📂 Project Structure
 
-optimizers/
-├── data/MNIST/raw/                    # MNIST dataset storage
-├── docs/                              # Documentation files
-├── experiments/                       # Experimental scripts
+## 📂 Project Structure
+
+```text
+optimizer-zoo/
+├── data/                  # MNIST dataset storage (ignored by git)
+│   └── MNIST/raw/
+├── results/               # Training outputs (ignored by git)
+│   ├── checkpoints/
+│   ├── logs/
+│   └── loss_curves/
+├── experiments/
 │   ├── __init__.py
-│   ├── mnist_logreg.py               # Logistic regression experiment
-│   ├── mnist_mlp.py                  # MLP experiment
-│   └── toy_function.py               # Quadratic function optimization test
-├── models/                           # Neural network architectures
+│   ├── mnist_logreg.py
+│   ├── mnist_mlp.py
+│   └── toy_function.py
+├── models/
 │   ├── logistic_regression.py
 │   └── mlp.py
-├── optimizers/                       # Custom optimizer implementations
+├── optimizers/
 │   ├── __init__.py
 │   ├── adabelief.py
 │   ├── adagrad.py
@@ -43,19 +50,17 @@ optimizers/
 │   ├── radam.py
 │   ├── rmsprop.py
 │   └── sgd.py
-├── results/                          # Output directories
-│   ├── checkpoints/                  # Model checkpoints
-│   ├── logs/                         # Training logs and JSON results
-│   └── loss_curves/                  # Loss and accuracy plots
-├── utils/                            # Utility functions
+├── utils/
 │   ├── __init__.py
-│   ├── data_utils.py                 # Data loading and preprocessing
-│   ├── loss_functions.py             # Loss function implementations
-│   ├── plot_utils.py                 # Visualization utilities
-│   ├── save_all_result.py            # Batch result saving
-│   └── save_results.py               # Individual result saving
-├── run_all_experiments.py            # Main execution script
+│   ├── data_utils.py
+│   ├── loss_functions.py
+│   ├── plot_utils.py
+│   ├── save_all_result.py
+│   └── save_results.py
+├── run_all_experiments.py
 └── README.md
+```
+
 
 
 ---
@@ -206,7 +211,7 @@ This project is licensed under the MIT License. Feel free to use, modify, and di
 ## ✨ Author
 
 *Developed by **[Po Hung, Cheng]**
-* GitHub: `[]`
+* GitHub: `[https://github.com/alexjeng0404/optimizer-zoo/blob/main/README.md]`
 A comprehensive study and reimplementation of optimization algorithms for deep learning.
 
 ---
